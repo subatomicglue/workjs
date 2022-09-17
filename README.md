@@ -20,7 +20,8 @@ work.length
 
 ```
 # process the task queue using ${concurrency} parallel workers
-work.process( concurrency )
+# await until done
+await work.process( concurrency )
 ```
 
 ## Usage
